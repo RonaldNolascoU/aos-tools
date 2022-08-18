@@ -7,5 +7,8 @@
   "dependencies": {
     "@primenums/solana-nft-tools": "^0.2.2",
     "@solana/web3.js": "^1.53.0"
+  },
+  "publishConfig": {
+    "@RonaldNolascoU:registry": "https://npm.pkg.github.com"
   }
 }
