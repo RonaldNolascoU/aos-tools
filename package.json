@@ -1,0 +1,11 @@
+{
+  "name": "@aos/aos-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "RonaldNolascoU",
+  "dependencies": {
+    "@primenums/solana-nft-tools": "^0.2.2",
+    "@solana/web3.js": "^1.53.0"
+  }
+}
