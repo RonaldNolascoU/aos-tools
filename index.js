@@ -51,9 +51,10 @@ const getStakedDate = (currentNFT) => {
 }
 
 const getNFTMultiplierBoost = (nft) => {
-  const { Boost } = nft
-  if (Boost) {
-    const [boostNumber] = Boost.includes('X') ? Boost.split('X') : ['', 1]
+  const { attributes } = nft
+  const { value } = attributes.find((a) => a.trait_type === 'Boost') || {}
+  if (value) {
+    const [boostNumber] = value.includes('X') ? value.split('X') : ['', 1]
     return Number(boostNumber)
   }
   return 1
