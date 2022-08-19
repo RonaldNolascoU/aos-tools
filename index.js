@@ -228,5 +228,17 @@ module.exports = {
   calculateTax,
   isMissionEnd,
   getStakedDays,
-  getHarvestAmount
+  getHarvestAmount,
+  getMinedSolarium,
+  getCurrentDay,
+  getEarned,
+  perDay,
+  dailyValue,
+  getPercentage,
+  multiplier,
+  getPartnerNFT,
+  hasMatchingPartner,
+  getPartnerValue,
+  getNFTMultiplierBoost,
+  getStakedDate
 }
