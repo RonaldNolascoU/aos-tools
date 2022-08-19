@@ -1,4 +1,4 @@
-const { RANK_DATA, TAX, MATCHING_PARTNER_MAP } = require('../config')
+const { RANK_DATA, TAX, MATCHING_PARTNER_MAP } = require('./config')
 const solanaWeb3 = require('@solana/web3.js')
 const NFTs = require('@primenums/solana-nft-tools')
 
